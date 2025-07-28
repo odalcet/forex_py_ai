@@ -1,4 +1,4 @@
-# gemini
+# gemini 28jl25 1400  lunes
 import os
 
 # Change working directory to the script's location
