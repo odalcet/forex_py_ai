@@ -1,5 +1,6 @@
 # gemini 28jl25 1534  lunes
-# parece que Git funciona 
+# si funciono manualmente. Ahora con VSCode
+
 import os
 
 # Change working directory to the script's location
