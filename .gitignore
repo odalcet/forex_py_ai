@@ -1,0 +1,4 @@
+ta10-env/
+*.so
+*.pyc
+__pycache__/

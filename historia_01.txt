@@ -1,0 +1,197 @@
+    1  sudo dnf upgrade --refresh
+    2  su
+    3  exit
+    4  cd datos
+    5  cd python/
+    6  ls
+    7  su
+    8  ls
+    9  su
+   10  python3 -m pip install numpy
+   11  sudo dnf install python3-pip
+   12  su
+   13  python3 -m venv venv
+   14  source venv/bin/activate
+   15  pip install numpy
+   16  pip install --upgrade pip
+   17  pip install pandas
+   18  sudo dnf install leafpad
+   19  su
+   20  sudo whoami
+   21  su
+   22  sudo dnf update
+   23  su -
+   24  sudo whoami
+   25  groups
+   26  groups jasavi
+   27  grep wheel /etc/group
+   28  id
+   29  exec su - $USER
+   30  sudo dnf update
+   31  id
+   32  exec su - $USER
+   33  id
+   34  sudo dnf update
+   35  python3 --version
+   36  sudo dnf install python3.11 python3.11-pip
+   37  sudo dnf install python3.11
+   38  python3.11 --version
+   39  curl -O https://bootstrap.pypa.io/get-pip.py
+   40  python3.11 get-pip.py --user
+   41  ~/.local/bin/pip3.11 --version
+   42  python3.11 -m venv tf-env
+   43  source tf-env/bin/activate
+   44  python -m pip install --upgrade pip
+   45  python -m pip install tensorflow
+   46  export PATH="$HOME/.local/bin:$PATH"
+   47  source ~/.bashrc
+   48  python -m pip install tensorflow
+   49  python3.11 -m venv tf-env2
+   50  source tf-env2/bin/activate
+   51  python -m pip install --upgrade pip
+   52  python -m pip install tensorflow
+   53  pwd
+   54  cd datos
+   55  cd python/
+   56  ls
+   57  python 
+   58  python pe_17.py 
+   59  pip install pandas
+   60  python pe_17.py 
+   61  pip install matplotlib
+   62  python pe_17.py 
+   63  pip install sklearn
+   64  pip install scikit-learn
+   65  python pe_17.py 
+   66  pip install talib
+   67  sudo dnf install ta-lib ta-lib-devel
+   68  cd -
+   69  cd ~
+   70  curl -LO http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
+   71  tar -xvzf ta-lib-0.4.0-src.tar.gz
+   72  cd ta-lib
+   73  [200~./configure --prefix=/usr~
+   74  ./configure --prefix=/usr
+   75  sudo dnf groupinstall "Development Tools"
+   76  sudo dnf5 install 'dnf5-command(groupinstall)'
+   77  sudo dnf groupinstall "Development Tools"
+   78  sudo dnf --help
+   79  exit
+   80  /bin/python /home/jasavi/datos/python/pe_17.py
+   81  pip install numpy
+   82  python3 -m pip show numpy
+   83  [200~sudo dnf install python3-numpy
+   84  ~sudo dnf install python3-numpy
+   85  python3 -m pip show numpy
+   86  /usr/bin/python /home/jasavi/datos/python/pe_17.py
+   87  pip install pandas
+   88  /usr/bin/python /home/jasavi/datos/python/pe_17.py
+   89  pip install matplotlib
+   90  /usr/bin/python /home/jasavi/datos/python/pe_17.py
+   91  pip install keras
+   92  /usr/bin/python /home/jasavi/datos/python/pe_17.py
+   93  pip install tensorflow
+   94  pip install --upgrade pip
+   95  pip install tensorflow
+   96  /usr/bin/python /home/jasavi/datos/python/pe_17.py
+   97  id
+   98  sudo dnf update
+   99  sudo dnf install python3-pip
+  100  python3 -m pip --version
+  101  python3 -m venv tf-env
+  102  source tf-env/bin/activate
+  103  pip install --upgrade pip
+  104  pip install tensorflow
+  105  free 
+  106  free -h
+  107  df
+  108  df -h
+  109  sudo dnf install leafpad
+  110  exit
+  111  su
+  112  df -h
+  113  mc
+  114  su
+  115  mc
+  116  exit
+  117  sudo dnf5 install gcc
+  118  sudo dnf5 group install "Development Tools"
+  119  sudo dnf5 install gcc gcc-c++ make automake autoconf kernel-devel
+  120  python3.11 --version
+  121  python3.11 -m venv tf-env
+  122  source tf-env/bin/activate
+  123  pip install --upgrade pip
+  124  pip install tensorflow
+  125  pwd
+  126  cd datos
+  127  cd python/
+  128  ls
+  129  python3.11 -m venv tf-env
+  130  ls
+  131  source tf-env/bin/activate
+  132  pip install numpy
+  133  pip install --upgrade pip
+  134  pip install numpy
+  135  pip install tensorflow
+  136  ls
+  137  pip install pandas
+  138  pip install matplotlib
+  139  pip install scikit-learn
+  140  sudo dnf install ta-lib ta-lib-devel
+  141  sudo dnf5 install ta-lib ta-lib-devel
+  142  sudo dnf5 install gcc make automake autoconf libtool
+  143  cd ~/Downloads
+  144  curl -L -O https://sourceforge.net/projects/ta-lib/files/ta-lib/0.4.0/ta-lib-0.4.0-src.tar.gz
+  145  tar -xvzf ta-lib-0.4.0-src.tar.gz
+  146  cd ta-lib
+  147  ./configure --prefix=/usr
+  148  make
+  149  sudo make install
+  150  pwd
+  151  cd ..
+  152  pwd
+  153  cd datos/python/
+  154  source ~/datos/python/tf-env/bin/activate
+  155  pip install TA-Lib
+  156  sudo dnf5 install python3.11-devel
+  157  pip install TA-Lib
+  158  pip install TA-Lib==0.4.0
+  159  pwd
+  160  ls
+  161  bash setup_python_env.sh
+  162  pip install TA-Lib==0.4.0a0
+  163  python -c "import talib; print(talib.__version__)"
+  164  pip install TA-Lib==0.4.24
+  165  sudo dnf5 install python3.10 python3.10-devel
+  166  python3.10 --version
+  167  python3.10 -m venv ta10-env
+  168  source ta10-env/bin/activate
+  169  pip install --upgrade pip
+  170  pip install numpy pandas matplotlib scikit-learn tensorflow==2.15
+  171  pip install TA-Lib==0.4.24
+  172  pip install TA-Lib
+  173  pip install TA-Lib==0.4.24
+  174  pip install --use-pep517 TA-Lib==0.4.24
+  175  cd /tmp
+  176  git clone https://github.com/TA-Lib/ta-lib.git
+  177  sudo dnf5 install git
+  178  git clone https://github.com/TA-Lib/ta-lib.git
+  179  ls
+  180  mc
+  181  git clone https://github.com/TA-Lib/ta-lib.git
+  182  cd ta-lib
+  183  ./autogen.sh
+  184  chmod +x autogen.sh
+  185  ./autogen.sh
+  186  ./configure --prefix=/usr
+  187  make
+  188  sudo make install
+  189  pip install TA-Lib==0.4.24
+  190  pip install TA-Lib
+  191  python -c "import talib; print('TA-Lib version:', talib.__version__); print(f'Loaded {len(talib.get_functions())} indicators')"
+  192  cd $HOME
+  193  cd datos/python/
+  194  pwd
+  195  pip freeze > requirements.txt
+  196  ls
+  197  history > historia_01.txt

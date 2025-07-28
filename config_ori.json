@@ -1,0 +1,23 @@
+{
+    "model_params": {
+        "seq_length": 50,
+        "lstm_units": 50,
+        "dense_units": 25,
+        "epochs": 30,
+        "batch_size": 32
+    },
+    "strategy_params": {
+        "price_threshold": 0.0007,
+        "rsi_buy_threshold": 30,
+        "rsi_sell_threshold": 70,
+        "stop_loss_pct": 0.01,
+        "take_profit_pct": 0.02,
+        "transaction_cost_pct": 0.0002
+    },
+    "backtest_params": {
+        "initial_capital": 100000
+    },
+    "general_settings": {
+        "random_seed": 42
+    }
+}
