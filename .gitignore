@@ -1,5 +1,81 @@
-ta10-env/
-*.so
-*.pyc
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
 tf-env/
+ta10-env/
+*.env/
+*.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing / coverage
+coverage/
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.pylint.d
+
+# pip environment freeze file
+pip-log.txt
+
+# Unit test / test result files
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Local config
+.env
+.env.*
+
+# Python build artifacts
+*.so
+*.pyd
+*.dll
+*.o
+*.a
+*.dylib
+
+# GitHub-specific
+.gitattributes
+
+# Ignore large data or model files (optional, customize as needed)
+*.h5
+*.ckpt
+*.pb
+*.weights
+*.pt
+*.onnx
+*.npz
+*.npy
+
+# Ignore SQLite databases or cache
+*.sqlite
+*.db
+*.sqlite3
