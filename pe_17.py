@@ -1,4 +1,5 @@
-# gemini 28jl25 1400  lunes
+# gemini 28jl25 1534  lunes
+# parece que Git funciona 
 import os
 
 # Change working directory to the script's location
